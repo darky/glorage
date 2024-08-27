@@ -18,6 +18,9 @@ export const once = (fun, cb) => {
 
 export const with1 = (fun, cb) => {
   const storage = getStorage();
+  if (!storage.has(fun)) {
+    throw new Error("Cached value not exists");
+  }
   return cb(storage.get(fun));
 };
 
