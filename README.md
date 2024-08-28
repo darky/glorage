@@ -5,6 +5,8 @@
 ![Erlang-compatible](https://img.shields.io/badge/target-erlang-a2003e)
 ![JavaScript-compatible](https://img.shields.io/badge/target-javascript-f1e05a)
 
+Gleam thread local storage
+
 ```sh
 gleam add glorage
 ```
