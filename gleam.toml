@@ -11,4 +11,5 @@ gleam_erlang = ">= 0.25.0"
 gleam_stdlib = ">= 0.34.0 and < 2.0.0"
 
 [dev-dependencies]
+cleam = ">= 1.5.1"
 gleeunit = ">= 1.0.0 and < 2.0.0"
