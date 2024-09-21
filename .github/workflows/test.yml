@@ -25,7 +25,7 @@ jobs:
           node-version: 22
       - uses: oven-sh/setup-bun@v2
         with:
-          bun-version: 1.x.x
+          bun-version: latest
       - run: gleam deps download
       - run: gleam test --target erlang
       - run: gleam test --target javascript --runtime node
